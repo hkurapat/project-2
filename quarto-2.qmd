@@ -2,5 +2,11 @@
 title: "Quarto 2"
 author: "Harshil Kurapati"
 format: html
+execute:
+  echo: false
 ---
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
 
